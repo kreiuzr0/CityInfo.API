@@ -1,0 +1,6 @@
+git init 
+git add .
+git commit -m "add demo to repo"
+git config --global user.name "kreiuzr0"
+git remote add origin https://github.com/kreiuzr0/CityInfo.API.git
+git push -u origin master
