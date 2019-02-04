@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CityInfo.API/bin/Debug/netcoreapp2.0
+/CityInfo.API/obj
