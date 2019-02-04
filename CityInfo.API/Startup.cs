@@ -40,7 +40,7 @@ namespace CityInfo.API
 
             loggerFactory.AddDebug();
 
-            //loggerFactory.AddProvider(new NLog.Extensions.Logging.NLogLoggerProvider()); //-or simply
+            //123 loggerFactory.AddProvider(new NLog.Extensions.Logging.NLogLoggerProvider()); //-or simply
             loggerFactory.AddNLog();
 
 
