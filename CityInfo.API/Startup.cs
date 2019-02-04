@@ -38,7 +38,7 @@ namespace CityInfo.API
         {
             loggerFactory.AddConsole();
 
-            loggerFactory.AddDebug(); 
+            loggerFactory.AddDebug();
 
             //loggerFactory.AddProvider(new NLog.Extensions.Logging.NLogLoggerProvider()); //-or simply
             loggerFactory.AddNLog();
