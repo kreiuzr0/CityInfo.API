@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CityInfo.API.Services
 {
-    public class CloudMailService:IMailService
+    public class CloudMailService : IMailService
     {
-        private string _mailTo = "admin@mycompany.com";
-        private string _mailFrom = "noreply@mycompany.com";
+        private string _mailTo = Startup.Configuration["mailSettings:mailToAddress"];//"admin@mycompany.com";
+        private string _mailFrom = Startup.Configuration["mailSettings:mailFromAddress"];//"noreply@mycompany.com";
 
         public void Send(string subject, string message)
         {
